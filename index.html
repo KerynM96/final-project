@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Fundación Mahuampi</title>
+</head>
+<body>
+    <header>
+        <img class="logos" src="/img/mahu.png" alt="logo">
+        <div id="menu">
+         
+            <ul>
+                <li><p>Fundación Mahuampi venezuela</p>
+                <p>Migrantes Venezolanos / Colombianos Retorna</p></li>
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Quienes somos</a></li>
+                <li><a href="">Programas</a></li>
+                <li><a href="">Noticias</a></li>
+                <li><a href="">Conocenos</a></li>
+                <li><a href="">Contacto</a></li>
+                
+            </ul>
+        </div>
+    </header>
+
+    <div class="name">
+        <form action="" class="form">
+
+        <h1>Registro de beneficiarios</h1>
+           
+
+            <div class="contain">
+                <input class="input" type="text" name="txtnombre" maxlength="50" placeholder="Nombre beneficiario" autofocus required/>
+                <label class="select">Nombre </label>
+            </div>
+
+            <div class="contain">
+                <input class="input" type="text" name="txtnombre" maxlength="50" placeholder="Apellido beneficiario" autofocus required/>
+                <label class="select">Apellido</label>
+            </div>
+            <div class="contain">
+                <select class="estado" id="est">
+                    <option value="nuevo">Seleccione tipo de documento</option>
+                    <option value="nuevo">Cedula de ciudadania</option>
+                    <option value="usado">Cedula de extrangeria</option>
+                    <option value="deteriorado">Pasaporte</option>
+                    <option value="deteriorado">Otro</option>
+                </select>
+            </div>
+            <div class="contain">
+                <input class="input" type="text" name="txtnombre" maxlength="50" placeholder="Ingrese documento" autofocus required/>
+                <label class="select">Numero de documento</label>
+            </div>
+
+            <div class="contain">
+                <input class="input" type="datetime-local" name="txtdatetime" placeholder="YYYY/MM/DD"/>
+                <label class="select">Fecha de nacimiento</label>
+            </div>
+            <div class="contain">
+                <select class="estado" id="est">
+                    <option value="sexo">Seleccione sexo</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="femenino">Femenino</option> 
+                    <option value="otro">Otro</option>
+                </select>
+            </div>
+
+            <div class="contain">
+                <select class="estado" id="est">
+                    <option value="pasaporte">Pasaporte</option>
+                    <option value="si">Si</option>
+                    <option value="no">No</option> 
+                </select>
+            </div>
+
+            <div class="contain">
+                <select class="estado" id="est">
+                    <option value="vencido">Vencido</option>
+                    <option value="si">Si</option>
+                    <option value="no">No</option> 
+                </select>
+            </div>
+
+            <div class="contain">
+                <input class="input" type="number" name="txtnombre" maxlength="50" placeholder="Ingrese edad" autofocus required/>
+                <label class="select">Edad</label>
+            </div>
+
+            <div class="button">
+                <input type="submit" class="submitBtn" value="Realizar registro">
+            </div>
+           
+        </form>
+    </div>
+</body>
+</html>
